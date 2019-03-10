@@ -1,0 +1,563 @@
+
+body {
+  height: 100%;
+}
+main {
+  min-height: calc(100vh - 43px);
+}
+
+
+/*navigation*/
+
+.visuallyhidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+.navigation {
+  background-color: #323232;
+  height: 63px;
+  position: relative;
+}
+
+
+.menu-div {
+    width: 411px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .menu-list {
+    padding: 0;
+    list-style: none;
+    margin-top: 31px;
+    display: inline-block;
+  }
+  
+  .menu-item {
+    float: left;
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 9.6px;
+    color: #484c5f;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .menu-item a:hover {
+    color: #2fa68d;
+  }
+
+  .space-right {
+    margin-right: 19px;
+  }
+
+  .space-left {
+    margin-left: 22px;
+  }
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.logo-img {
+    margin-top: -21px;
+    margin-left: 12px;
+    margin-right: 14px;
+    position: relative;
+    padding-left: 2px;
+
+}
+
+.navigation:after {
+    content: "";
+    height: 0;
+    border-style: solid;
+    border-width: 26px 47px 0 47px;
+    border-color: #323232 transparent transparent transparent;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-52%);
+    top: 63px;
+}
+
+/*hexagon */
+
+.hexagon-container{
+  height: 642px;
+}
+
+.hexagon {
+  width: 1020px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hexagon:before {
+  content: "";
+  width: 410px;
+  height: 1px;
+  position: absolute;
+  background-color: #e4e9eb;
+  left: 30px;
+  margin-top: -67px;
+}
+
+.hexagon:after {
+  content: "";
+  width: 410px;
+  height: 1px;
+  position: absolute;
+  background-color: #e4e9eb;
+  left: 580px;
+  margin-top: -632px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+   
+}
+
+.row-1 {
+  margin-top: 78px;
+  
+}
+
+.row-2 {
+  margin-top: -58px;
+}
+
+.row-3 {
+  margin-top: -58px;
+}
+
+.row-1:before {
+  content: "";
+  width: 1px;
+  height: 104px;
+  position: absolute;
+  background-color: #e4e9eb;
+  left: 100px;
+  top: 63px;
+}
+
+.row-1:after {
+  content: "";
+  width: 1px;
+  height: 104px;
+  position: absolute;
+  background-color: #e4e9eb;
+  right: 99px;
+  top: 63px;
+}
+
+.row-3:before {
+  content: "";
+  width: 1px;
+  height: 104px;
+  position: absolute;
+  background-color: #e4e9eb;
+  left: 100px;
+  top: 400px;
+}
+
+.row-3:after {
+  content: "";
+  width: 1px;
+  height: 104px;
+  position: absolute;
+  background-color: #e4e9eb;
+  right: 99px;
+  top: 400px;
+}
+
+.row-2:after {
+  content: "";
+  width: 960px;
+  height: 1px;
+  position: absolute;
+  background-color: #e4e9eb;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 630px;
+}
+
+.hex-1 {
+  width: 180px;
+  height: 207px;
+  background-color: #ccc3;
+  margin: 10px;
+  transform: rotate(120deg);
+  overflow: hidden;
+  visibility: hidden;
+  transition: transform 1s ease-in;
+}
+
+.hex-2 {
+  width: 100%;
+  height: 100%;
+  background-color: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.hex-3 {
+  width: 100%;
+  height: 100%;
+  background:#ccc3;
+  transform: rotate(-60deg);
+  visibility: visible;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  display: inline-block;
+}
+
+.hex-31 {
+  background-image: url('assets/images/img-1.png');
+}
+
+.hex-32 {
+  background-image: url('assets/images/img-2.png');
+}
+
+.hex-33 {
+  background-image: url('assets/images/img-3.png');
+}
+
+.hex-34 {
+  background-image: url('assets/images/img-4.png');
+}
+
+.hex-35 {
+  background-image: url('assets/images/img-5.png');
+}
+
+.hex-36 {
+  background-image: url('assets/images/img-6.png');
+}
+
+.hex-37 {
+  background-image: url('assets/images/img-7.png');
+}
+
+.hex-38 {
+  background-image: url('assets/images/img-8.png');
+}
+
+.hex-39 {
+  background-image: url('assets/images/img-9.png');
+}
+
+.hex-310 {
+  background-image: url('assets/images/img-10.png');
+}
+
+.hex-311 {
+  background-image: url('assets/images/img-11.png');
+}
+
+.hex-312 {
+  background-image: url('assets/images/img-12.png');
+}
+
+.hex-313 {
+  background-image: url('assets/images/img-13.png');
+}
+
+
+/* smith */
+
+.smith-section {
+  background-color: #2eb398;
+  height: 341px;
+  width: 100%;
+}
+
+.smith-article {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.vertical-line-1 {
+  height: 316px;
+  width: 1px;
+  background-color: #219d84;
+  margin-left: 98px;
+  margin-top: 12px;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.vertical-line-2 {
+  height: 316px;
+  width: 1px;
+  background-color: #219d84;
+  margin-left: 920px;
+  margin-top: -273px;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.smith-photo {
+  background: url('assets/images/smith.png') center 7px no-repeat;
+  width: 221px;
+}
+
+.smith-image path {
+  transition: all 1s ease;
+  stroke:transparent;
+  fill-rule:evenodd;
+  stroke-width:2;
+  fill:#2eb398;
+}
+
+.photo-container {
+  display: inline-block;
+  width: 221px;
+  margin-left: 100px;
+  margin-top: 61px;
+}
+
+.smith-descr-div {
+  display: inline-block;
+  width: 581px;
+  margin-left: -6px;
+  vertical-align: top;
+  margin-top: 50px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.smith-name {
+  font-family: "Maven Pro";
+  font-size: 30px;
+  color: #e0e0e0;
+}
+
+.smith-work {
+  font-family: "Maven Pro";
+  font-size: 18px;
+  color: #20816d;
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+
+.smith-descr {
+  font-family: Lato;
+  font-size: 12px;
+  color: #e0e0e0;
+}
+
+.social {
+  float: right;
+  margin-right: 123px;
+  margin-top: -35px;
+}
+
+.social a {
+  display: inline-block;
+  margin-right: -4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 24px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.tint:hover:before { background: none;
+}
+
+.facebook:before {
+  background-image: url('assets/images/facebook-z.png')
+}
+
+.twitter:before {
+  background-image: url('assets/images/twitter-z.png')
+}
+
+.google:before {
+  background-image: url('assets/images/google-z.png')
+}
+
+.pinterest:before {
+  background-image: url('assets/images/pinterest-z.png')
+}
+
+.linkedin:before {
+  background-image: url('assets/images/linkedin-z.png')
+}
+
+.dribbble:before {
+  background-image: url('assets/images/dribbble-z.png')
+}
+
+/* get in touch */
+
+.get-in-touch-section {
+  background-color: #323232;
+
+  height: 564px;
+  width: 100%;
+}
+
+.get-in-touch-div {
+  width: 1020px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.get-in-touch-div:before {
+  content: "";
+  width: 960px;
+  height: 1px;
+  position: absolute;
+  background-color: #2b2b2b;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 12px;
+}
+
+.get-in-touch-div:after {
+  content: "";
+  width: 960px;
+  height: 1px;
+  position: absolute;
+  background-color: #2b2b2b;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 552px;
+}
+
+input {
+  display: inline-block;
+  height: 36px;
+  width: 563px;
+  margin-bottom: 16px;
+  background-color: #454545;
+  border: none;
+  color: #e0e0e0;
+  padding-left: 15px;
+  vertical-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-div {
+  display: inline-block;
+  width: 580px;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+
+.legend {
+  font-family: "Maven Pro";
+  font-size: 30px;
+  color: #e0e0e0;
+  margin-bottom: 3px;
+}
+
+.legend-p {
+  font-family: "Maven Pro";
+  font-size: 18px;
+  color: #e0e0e0;
+  margin-bottom: 22px;
+
+}
+
+textarea {
+  background-color: #454545;
+  width: 563px;
+  height: 140px;
+  resize: none;
+  border: none;
+  color: #e0e0e0;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #2eb398;
+  width: 90px;
+  height: 37px;
+  border: none;
+  float: right;
+  color: #e0e0e0;
+  font-family: Lato;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.form-descr {
+  display: inline-block;
+  width: 180px;
+  margin-left: 15px;
+  vertical-align: top;
+  margin-top: 127px;
+  margin-left: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  color: #e0e0e0;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.form-info {
+  padding-top: 0;
+  margin-bottom: 33px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.form-img {
+  margin-right: 10px;
+}
+
+.location-img {
+  margin-left: 2px;
+  margin-right: 12px;
+}
+
+
+
+/* footer*/
+
+footer {
+  background-color: #222222;
+  display: block;
+  height: 43px;
+  width: 100%;
+  
+}
+
+.div-footer {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  font-family: "Maven Pro";
+  font-size: 11px;
+  color: rgba(69, 69, 69, 255);
+  margin-left: 39px;
+  margin-top: 15px;
+  float: left;
+}
